@@ -1,3 +1,5 @@
+package atividadefinal;
+
 public class Disciplina {
     private String codigo;
     private String nome;
@@ -25,5 +27,14 @@ public class Disciplina {
 
     public void setSemestre(Double semestre) {
         this.semestre = semestre;
+    }
+
+    @Override
+    public String toString() {
+        return "Disciplina{" +
+                "codigo='" + this.getCodigo() + '\'' +
+                ", nome='" + this.getNome() + '\'' +
+                ", semestre=" + this.getSemestre() +
+                '}';
     }
 }
