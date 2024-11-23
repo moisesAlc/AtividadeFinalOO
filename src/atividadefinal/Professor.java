@@ -13,7 +13,7 @@ public class Professor extends Pessoa{
     }
 
     public void darAula(){
-        System.out.println("Professor " + this.getNome() + " dando aula no centro " + this.getCentro() + "a \uD83D\uDC68\u200D\uD83C\uDFEB");
+        System.out.println("Professor " + this.getNome() + " dando aula no centro " + this.getCentro() + " \uD83D\uDC68\u200D\uD83C\uDFEB");
     }
 
     @Override

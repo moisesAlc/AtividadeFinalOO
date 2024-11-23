@@ -1,4 +1,4 @@
-package atividadefinal;
+import atividadefinal.*;
 
 public class Main {
     public static void main(String[] args) {
@@ -9,6 +9,7 @@ public class Main {
         Disciplina disciplina2 = new Disciplina();
         Disciplina disciplina3 = new Disciplina();
 
+        // Utilizando polimorfismo
         Aluno aluno1 = new AlunoRegular();
         Aluno aluno2 = new AlunoRegular();
         Aluno aluno3 = new AlunoBolsista();
@@ -95,7 +96,7 @@ public class Main {
 
         /* Exibindo valores */
 
-        System.out.println("\n\\033[1mMostrando as turmas e seus atributos...\\033[0m");
+        System.out.println("\nMostrando as turmas e seus atributos...");
         System.out.println(turma1);
         System.out.println(turma2);
         System.out.println(turma3);
