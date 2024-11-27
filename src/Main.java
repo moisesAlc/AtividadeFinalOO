@@ -139,7 +139,7 @@ public class Main {
 
         System.out.println("Recebemos visitas de:\n");
 
-        System.out.println(visitante1 + "\n");
+        System.out.println(visitante1);
 
         System.out.println(visitante2);
 

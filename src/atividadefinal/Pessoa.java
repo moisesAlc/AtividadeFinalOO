@@ -36,7 +36,7 @@ public abstract class Pessoa {
     public void fazerAniversario(){
         System.out.println("A idade de " + this.getNome() +
                 " antes de fazer aniversário era " + this.getIdade());
-        System.out.println("Parabéns, " + this.nome + ", pelo seu aniversário! \uD83C\uDF82 \uD83C\uDF89 \uD83E\uDD73");
+        System.out.println("Parabéns, " + this.nome + ", pelo seu aniversário!");
         this.incrementarIdade(1);
         System.out.println("A idade de " + this.getNome() +
                 " após de fazer aniversário é " + this.getIdade());
