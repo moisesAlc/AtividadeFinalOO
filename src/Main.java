@@ -27,15 +27,15 @@ public class Main {
 
         disciplina1.setCodigo("DISC_A_2024");
         disciplina1.setNome("Disciplina A");
-        disciplina1.setSemestre(1.1); // deixamos double pela possibilidade de trimestres 👍
+        disciplina1.setSemestre(1.1); // deixamos double pela possibilidade de trimestres 
 
         disciplina2.setCodigo("DISC_B_2024");
         disciplina2.setNome("Disciplina B");
-        disciplina2.setSemestre(1.1); // deixamos double pela possibilidade de trimestres 👍
+        disciplina2.setSemestre(1.1); // deixamos double pela possibilidade de trimestres
 
         disciplina3.setCodigo("DISC_C_2024");
         disciplina3.setNome("Disciplina C");
-        disciplina3.setSemestre(1.2); // deixamos double pela possibilidade de trimestres 👍
+        disciplina3.setSemestre(1.2); // deixamos double pela possibilidade de trimestres
 
         /* Configuração dos Professores */
 
@@ -105,7 +105,7 @@ public class Main {
 
         /* Alguns aniversários para comemorar a vida ;) */
 
-        System.out.println("Comemorando aniversários \uD83C\uDF88...");
+        System.out.println("Comemorando aniversários...");
         aluno1.fazerAniversario();
 
         System.out.println("\n-------------------------------------------------\n");
@@ -139,9 +139,9 @@ public class Main {
 
         System.out.println("Recebemos visitas de:\n");
 
-        System.out.printf(visitante1 + "\n");
+        System.out.println(visitante1 + "\n");
 
-        System.out.printf(String.valueOf(visitante2));
+        System.out.println(visitante2);
 
         System.out.println("\n-------------------------------------------------\n");
     }
