@@ -10,9 +10,9 @@ public class Main {
         Disciplina disciplina3 = new Disciplina();
 
         // Utilizando polimorfismo
-        Aluno aluno1 = new AlunoRegular();
-        Aluno aluno2 = new AlunoRegular();
-        Aluno aluno3 = new AlunoBolsista();
+        Aluno aluno1 = new Regular();
+        Aluno aluno2 = new Regular();
+        Aluno aluno3 = new Bolsista();
 
         Professor professor = new Professor();
 
@@ -73,21 +73,21 @@ public class Main {
 
         /* Configuração das Turmas */
 
-        turma1.setCodigo("T1");
+        turma1.setCodigo(1);
         turma1.setDisciplina(disciplina1);
         turma1.setProfessor(professor);
         turma1.adicionarAluno(aluno1);
         turma1.adicionarAluno(aluno2);
         turma1.adicionarAluno(aluno3);
 
-        turma2.setCodigo("T2");
+        turma2.setCodigo(2);
         turma2.setDisciplina(disciplina2);
         turma2.setProfessor(professor);
         turma2.adicionarAluno(aluno1);
         turma2.adicionarAluno(aluno2);
         turma2.adicionarAluno(aluno3);
 
-        turma3.setCodigo("T3");
+        turma3.setCodigo(3);
         turma3.setDisciplina(disciplina3);
         turma3.setProfessor(professor);
         turma3.adicionarAluno(aluno1);
@@ -116,7 +116,7 @@ public class Main {
 
         turma1.listarAlunos();
 
-        AlunoRegular intercambista = new AlunoRegular();
+        Regular intercambista = new Regular();
         intercambista.setMatricula("234234");
         intercambista.setNome("James Bond");
         intercambista.setCpf(null);

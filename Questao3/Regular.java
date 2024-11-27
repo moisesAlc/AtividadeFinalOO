@@ -1,6 +1,6 @@
 package atividadefinal;
 
-public class AlunoRegular extends Aluno{
+public class Regular extends Aluno{
 
     @Override
     public void pagarMensalidade() {
